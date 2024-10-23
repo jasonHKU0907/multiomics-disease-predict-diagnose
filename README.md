@@ -28,5 +28,5 @@ This work is licensed under a
 
 ## Citation   
 ```
-You, J., Guo, Y., Zhang, Y. et al. Plasma proteomic profiles predict individual future health risk. Nat Commun 14, 7817 (2023). https://doi.org/10.1038/s41467-023-43575-7
+You J., Liang Y., Chen Y.L., et al. Integrative multi-omics blood profiling for human disease diagnosis and prediction. under review
 ```
