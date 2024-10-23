@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/49eaf8c0-31ed-4303-8bbf-87354e52d114)<div align="center">
-
+<div align="center">
+  
 ![Logo](./src/CoverImage.png?raw=true "CoverImage")
 
 </div>
