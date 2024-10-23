@@ -11,12 +11,14 @@ This repository contains python codes for model development and evaluations to t
 Detailed model performance and interative implementation can be access through website of https://multiomics-disease-predict-diagnose.com/
 
 <div align="center">
+  
 ![Workflow](./src/StudyOverview.png?raw=true "StudyOverview")
 
 ## Study Overview
 This webpage leveraged data from genomics, proteomics, metabolomics, and chemistry biomarkers to provide an implementation of multi-omics blood profiling in diagnosing 219 diseases and predicting 475 diseases. The risk models were established using a prospective cohort of UK Biobank (N=493,577) with long follow-up (median 14.6 years). This implementation was approved by UK Biobank under application number 19542 and 202239.
 
 <div align="center">
+  
 ![Architecture](./src/ModelingPipeline.png?raw=true "ModelingPipeline")
 ## Modeling pipeline
 The population was divided into omic-specified derivation cohorts for model development, employing a 10-fold cross-validation (CV) strategy. Specifically, nine folds of data served as the training set, while the remaining fold was used as the validation set. This process was iteratively repeated until each fold had been utilized for both training and validation. A hold-out test was conducted among 29,694 participants who had undergone comprehensive omics profiling. The machine learning pipeline encompassed the determination of biomarker panels and ensemble predictions, generating omic-specified risk scores—GenRS, MetRS, ProRS, and CheRS—for diagnostic and predictive purposes.
